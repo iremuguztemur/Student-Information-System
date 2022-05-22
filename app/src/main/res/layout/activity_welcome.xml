@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg_login_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".Login.WelcomeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/consKaydol"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/register_design"
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_login_design"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.498">
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/tvUnisesKaydol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="ÖĞRENCİ BİLGİ SİSTEMİ"
+            android:textSize="20dp"
+            android:textColor="@color/lila_koyu"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@+id/user_no"
+            app:layout_constraintTop_toTopOf="@+id/register_design" />
+
+        <EditText
+            android:id="@+id/tvKullaniciAdiKayitFr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Kullanici adı"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/user_no"
+            app:layout_constraintStart_toStartOf="@+id/user_no"
+            app:layout_constraintTop_toBottomOf="@+id/user_no" />
+
+        <EditText
+            android:id="@+id/tvEmailKaydol"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/tvKullaniciAdiKayitFr"
+            app:layout_constraintStart_toStartOf="@+id/tvKullaniciAdiKayitFr"
+            app:layout_constraintTop_toBottomOf="@+id/tvKullaniciAdiKayitFr" />
+
+        <EditText
+            android:id="@+id/tvSifreKayitFR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/tvEmailKaydol"
+            app:layout_constraintStart_toStartOf="@+id/tvEmailKaydol"
+            app:layout_constraintTop_toBottomOf="@+id/tvEmailKaydol" />
+
+        <TextView
+            android:id="@+id/btnKaydolLogin"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ripple_login"
+            android:gravity="center"
+            android:text="Kayıt Ol"
+            android:textColor="@color/lila_koyu"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/register_design"
+            app:layout_constraintEnd_toEndOf="@+id/tvSifreKayitFR"
+            app:layout_constraintStart_toStartOf="@+id/tvSifreKayitFR"
+            app:layout_constraintTop_toBottomOf="@+id/tvSifreKayitFR" />
+
+        <EditText
+            android:id="@+id/user_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Öğrenci /Akademisyen No"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/register_design"
+            app:layout_constraintTop_toBottomOf="@+id/tvUnisesKaydol" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/consGirisYap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/login_design"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_login_design"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:id="@+id/tvEmailGirisFR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:alpha="0.8"
+            android:background="@drawable/bg_edittext"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/login_design"
+            app:layout_constraintTop_toTopOf="@+id/login_design" />
+
+        <EditText
+            android:id="@+id/tvSifreGirisFR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:alpha="0.8"
+            android:background="@drawable/bg_edittext"
+            android:hint="şifre"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/tvEmailGirisFR"
+            app:layout_constraintStart_toStartOf="@+id/tvEmailGirisFR"
+            app:layout_constraintTop_toBottomOf="@+id/tvEmailGirisFR" />
+
+        <TextView
+            android:id="@+id/btnGirisYapGirisFR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/ripple_login"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+
+            android:padding="12dp"
+            android:text="Giriş yap"
+            android:textAlignment="center"
+            android:textColor="@color/lila_koyu"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/login_design"
+            app:layout_constraintEnd_toEndOf="@+id/tvSifreGirisFR"
+            app:layout_constraintStart_toStartOf="@+id/tvSifreGirisFR"
+            app:layout_constraintTop_toBottomOf="@+id/tvSifreGirisFR" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/btn_login_bg"
+        android:layout_width="134dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btn_register_univibe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_register_bg"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"></View>
+
+    <View
+        android:id="@+id/btn_register_bg"
+        android:layout_width="134dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_register_univibe"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_login_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_login_bg"
+        app:layout_constraintTop_toTopOf="@+id/btn_login_bg" />
+
+    <TextView
+        android:id="@+id/tvKaydolLogin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+
+        android:text="Kaydol"
+        android:textAlignment="center"
+        android:textColor="@color/siyah"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_register_bg"
+        app:layout_constraintEnd_toEndOf="@+id/btn_register_bg"
+        app:layout_constraintStart_toStartOf="@+id/btn_register_bg"
+        app:layout_constraintTop_toTopOf="@+id/btn_register_bg" />
+
+    <TextView
+        android:id="@+id/tvGirisYapLogin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Giris yap"
+        android:textAlignment="center"
+        android:textColor="@color/siyah"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_login_bg"
+        app:layout_constraintEnd_toEndOf="@+id/btn_login_bg"
+        app:layout_constraintStart_toStartOf="@+id/btn_login_bg"
+        app:layout_constraintTop_toTopOf="@+id/btn_login_bg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

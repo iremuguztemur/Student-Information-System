@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F6D0D0</color>
+    <color name="colorPrimaryDark">#191919</color>
+    <color name="colorAccent">#000000</color>
+    <color name="gecicibottomView">#FBFBFB</color>
+    <color name="beyaz">#FFFFFF</color>
+    <color name="beyazbg">#F9FAFF</color>
+    <color name="beyazbg1">#ECEFFA</color>
+    <color name="dark">#373535</color>
+    <color name="siyah">#000000</color>
+    <color name="blue">#175287</color>
+    <color name="blue1">#71BCF2</color>
+    <color name="blue2">#4CB3FE</color>
+
+    <color name="tytaytfr">#2A2A2B</color>
+    <color name="gray">#EFF2F4</color>
+    <color name="bgGray">#EFF2F4</color>
+    <color name="kirmizi">#F94557</color>
+    <color name="kirmizi1">#DD2929</color>
+    <color name="acik_mavi">#8865DE</color>
+    <color name="yesil">#2DBE86</color>
+    <color name="yesil1">#309145</color>
+    <color name="yesilbg">#E2F8E7</color>
+    <color name="arkaplan">#F1F2F3</color>
+    <color name="koyu_mavi">#202730</color>
+    <color name="lila">#BDB4E4</color>
+    <color name="lila_koyu">#673AB7</color>
+    <color name="mor">#9C27B0</color>
+    <color name="gray_1">#616161</color>
+    <color name="grayLeft">#F1F1F1</color>
+
+
+    <color name="renk0">#2A2A2B</color>
+    <color name="renk1">#175287</color>
+    <color name="renk2">#8865DE</color>
+    <color name="renk3">#373535</color>
+    <color name="renk4">#F94557</color>
+    <color name="renk5">#0A6070</color>
+    <color name="renk6">#F26565</color>
+    <color name="renk7">#FF9800</color>
+    <color name="renk8">#3F51B5</color>
+    <color name="renk9">#E91E63</color>
+    <color name="renk10">#4CAF50</color>
+    <color name="renk11">#DA3433</color>
+    <color name="renk12">#4A8BA3</color>
+    <color name="renk13">#429351</color>
+    <color name="renk14">#17DBAD</color>
+    <color name="renk15">#9CA9CF</color>
+    <color name="renk16">#0359CF</color>
+    <color name="renk17">#6A596A</color>
+    <color name="renk18">#D896A8</color>
+    <color name="renk19">#F1AD6D</color>
+    <color name="renk20">#6CC5DA</color>
+
+
+
+
+
+
+</resources>

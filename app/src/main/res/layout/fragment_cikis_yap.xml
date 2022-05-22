@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    tools:context=".Fragments.CikisYapFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/gray">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Çıkış yap"
+            android:textColor="@color/siyah"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvHediyeMSJ"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:text="Çıkış yapmak istediğine emin misin?"
+            android:textAlignment="center"
+            android:textColor="@color/koyu_mavi"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView12"
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/bgGray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvHediyeMSJ" />
+
+        <View
+            android:id="@+id/view20"
+            android:layout_width="2dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/bgGray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvEvet"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvIptal"
+            app:layout_constraintTop_toBottomOf="@+id/tvHediyeMSJ" />
+
+        <TextView
+            android:id="@+id/tvEvet"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="Evet"
+            android:textColor="@color/kirmizi"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvIptal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view20"
+            app:layout_constraintTop_toTopOf="@+id/tvIptal"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tvIptal"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:text="İptal"
+            android:textColor="@color/blue1"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toStartOf="@+id/view20"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

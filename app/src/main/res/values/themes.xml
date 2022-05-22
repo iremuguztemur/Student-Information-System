@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Univibe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/renk0</item>
+        <item name="colorPrimaryVariant">@color/renk0</item>
+        <item name="colorOnPrimary">@color/beyaz</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/renk5</item>
+        <item name="colorSecondaryVariant">@color/renk11</item>
+        <item name="colorOnSecondary">@color/siyah</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

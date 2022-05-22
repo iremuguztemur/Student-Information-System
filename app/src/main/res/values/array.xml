@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="fruits">
+        <item>ABDULLAH GÜL ÜNİVERSİTESİ - AGÜ</item>
+        <item>ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ - ATÜ</item>
+        <item>ADIYAMAN ÜNİVERSİTESİ - ADYÜ</item>
+        <item>AFYON KOCATEPE ÜNİVERSİTESİ - AKÜ</item>
+        <item>AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ - AFSÜ</item>
+        <item>AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ - AİÇÜ</item>
+        <item>AKDENİZ ÜNİVERSİTESİ - AKDÜ</item>
+        <item>AKSARAY ÜNİVERSİTESİ - ASÜ</item>
+        <item>ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ - ALKÜ</item>
+        <item>ANADOLU ÜNİVERSİTESİ - ANAÜ</item>
+        <item>ANKARA HACI BAYRAM VELİ ÜNİVERSİTESİ - AHBVÜ</item>
+    </array>
+
+    <array name="uni_logo">
+        <item>@drawable/agu_circle</item>
+        <item>@drawable/atu_circle</item>
+        <item>@drawable/adyu_circle</item>
+        <item>@drawable/aku_circle</item>
+        <item>@drawable/afsu_circle</item>
+        <item>@drawable/aicu_circle</item>
+        <item>@drawable/akdu_circle</item>
+        <item>@drawable/asu_circle</item>
+        <item>@drawable/alku_circle</item>
+        <item>@drawable/anau_circle</item>
+        <item>@drawable/ahbu_circle</item>
+    </array>
+
+
+
+</resources>
